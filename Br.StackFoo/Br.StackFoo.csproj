@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1954D27-706F-4C0D-B30A-7508DE5400D8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Br.StackFoo</RootNamespace>
+    <AssemblyName>Br.StackFoo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BootFX.Common">
+      <HintPath>..\..\..\Sluice\BootFX\Common\bin\BootFX.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions">
+      <HintPath>..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\!Base\QuestionItem\QuestionItemBase.cs" />
+    <Compile Include="Entities\!Base\QuestionItem\QuestionItemCollectionBase.cs" />
+    <Compile Include="Entities\!Base\QuestionTagItem\QuestionTagItemBase.cs" />
+    <Compile Include="Entities\!Base\QuestionTagItem\QuestionTagItemCollectionBase.cs" />
+    <Compile Include="Entities\!Base\TagItem\TagItemBase.cs" />
+    <Compile Include="Entities\!Base\TagItem\TagItemCollectionBase.cs" />
+    <Compile Include="Entities\!Base\TagSet\TagSetBase.cs" />
+    <Compile Include="Entities\!Base\TagSet\TagSetCollectionBase.cs" />
+    <Compile Include="Entities\QuestionItem\QuestionItem.cs" />
+    <Compile Include="Entities\QuestionItem\QuestionItemCollection.cs" />
+    <Compile Include="Entities\QuestionTagItem\QuestionTagItem.cs" />
+    <Compile Include="Entities\QuestionTagItem\QuestionTagItemCollection.cs" />
+    <Compile Include="Entities\TagItem\TagItem.cs" />
+    <Compile Include="Entities\TagItem\TagItemCollection.cs" />
+    <Compile Include="Entities\TagSet\TagSet.cs" />
+    <Compile Include="Entities\TagSet\TagSetCollection.cs" />
+    <Compile Include="Objects\FooRuntime.cs" />
+    <Compile Include="Objects\StackAnalyzer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\FooService.cs" />
+    <Compile Include="Service\QuestionUpdateEngine.cs" />
+    <Compile Include="Service\TagUpdateEngine.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

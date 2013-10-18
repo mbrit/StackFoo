@@ -1,0 +1,451 @@
+<Project two47:typeName="BootFX.Common.DbUtil.Project" two47:assembly="BootFX.Common.DbUtil, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml" xmlns:two47="http://BootFX.Common.com/schemas/toxml/">
+  <Settings two47:typeName="BootFX.Common.DbUtil.Settings" two47:assembly="BootFX.Common.DbUtil, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+    <NamespaceName>Br.StackFoo</NamespaceName>
+    <BaseType />
+    <ServiceBaseType />
+    <DatabaseName />
+    <TargetVersion>V1</TargetVersion>
+    <GenerationTypeName />
+  </Settings>
+  <SqlSchema two47:typeName="BootFX.Common.Data.Schema.SqlSchema" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+    <Tables>
+      <SqlTable two47:typeName="BootFX.Common.Data.Schema.SqlTable" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+        <NativeName>BfxConfiguration</NativeName>
+        <Name>BfxConfiguration</Name>
+        <Generate>False</Generate>
+        <Columns>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>ConfigId</NativeName>
+            <Name>ConfigId</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Key, Common, AutoIncrement</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>CompanyName</NativeName>
+            <Name>CompanyName</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Common</Flags>
+            <Length>96</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>ProductName</NativeName>
+            <Name>ProductName</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Common</Flags>
+            <Length>96</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Name</NativeName>
+            <Name>Name</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Common</Flags>
+            <Length>96</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Data</NativeName>
+            <Name>Data</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Large</Flags>
+            <Length>1073741823</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Version</NativeName>
+            <Name>Version</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+        </Columns>
+        <Indexes />
+        <ChildToParentLinks />
+        <GenerateWebService>False</GenerateWebService>
+        <Modifiers>Public</Modifiers>
+      </SqlTable>
+      <SqlTable two47:typeName="BootFX.Common.Data.Schema.SqlTable" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+        <NativeName>Questions</NativeName>
+        <Name>QuestionItem</Name>
+        <Generate>True</Generate>
+        <Columns>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>QuestionId</NativeName>
+            <Name>QuestionId</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Key, Common, AutoIncrement</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>NativeId</NativeName>
+            <Name>NativeId</Name>
+            <Generate>True</Generate>
+            <DbType>Int64</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Title</NativeName>
+            <Name>Title</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Common</Flags>
+            <Length>128</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>DateTime</NativeName>
+            <Name>DateTime</Name>
+            <Generate>True</Generate>
+            <DbType>DateTime</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+        </Columns>
+        <Indexes>
+          <SqlIndex two47:typeName="BootFX.Common.Data.Schema.SqlIndex" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Questions_NativeId</NativeName>
+            <Name>Questions_NativeId</Name>
+            <Generate>True</Generate>
+            <Columns>
+              <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+                <NativeName>NativeId</NativeName>
+                <Name>NativeId</Name>
+                <Generate>True</Generate>
+                <DbType>Int64</DbType>
+                <Flags>Common</Flags>
+                <Length>-1</Length>
+                <EnumerationTypeName />
+                <EncryptionKeyName />
+                <Modifiers>Public</Modifiers>
+              </SqlColumn>
+            </Columns>
+          </SqlIndex>
+        </Indexes>
+        <ChildToParentLinks />
+        <GenerateWebService>False</GenerateWebService>
+        <Modifiers>Public</Modifiers>
+      </SqlTable>
+      <SqlTable two47:typeName="BootFX.Common.Data.Schema.SqlTable" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+        <NativeName>QuestionTags</NativeName>
+        <Name>QuestionTagItem</Name>
+        <Generate>True</Generate>
+        <Columns>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>LinkId</NativeName>
+            <Name>LinkId</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Key, Common, AutoIncrement</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>QuestionId</NativeName>
+            <Name>QuestionId</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>TagId</NativeName>
+            <Name>TagId</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+        </Columns>
+        <Indexes>
+          <SqlIndex two47:typeName="BootFX.Common.Data.Schema.SqlIndex" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>QuestionTags_QuestionTag</NativeName>
+            <Name>QuestionTags_QuestionTag</Name>
+            <Generate>True</Generate>
+            <Columns>
+              <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+                <NativeName>QuestionId</NativeName>
+                <Name>QuestionId</Name>
+                <Generate>True</Generate>
+                <DbType>Int32</DbType>
+                <Flags>Common</Flags>
+                <Length>-1</Length>
+                <EnumerationTypeName />
+                <EncryptionKeyName />
+                <Modifiers>Public</Modifiers>
+              </SqlColumn>
+              <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+                <NativeName>TagId</NativeName>
+                <Name>TagId</Name>
+                <Generate>True</Generate>
+                <DbType>Int32</DbType>
+                <Flags>Common</Flags>
+                <Length>-1</Length>
+                <EnumerationTypeName />
+                <EncryptionKeyName />
+                <Modifiers>Public</Modifiers>
+              </SqlColumn>
+            </Columns>
+          </SqlIndex>
+        </Indexes>
+        <ChildToParentLinks>
+          <SqlChildToParentLink two47:typeName="BootFX.Common.Data.Schema.SqlChildToParentLink" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>FK_QuestionTags_Questions</NativeName>
+            <Name>Question</Name>
+            <Generate>True</Generate>
+            <Columns>
+              <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+                <NativeName>QuestionId</NativeName>
+                <Name>QuestionId</Name>
+                <Generate>True</Generate>
+                <DbType>Int32</DbType>
+                <Flags>Common</Flags>
+                <Length>-1</Length>
+                <EnumerationTypeName />
+                <EncryptionKeyName />
+                <Modifiers>Public</Modifiers>
+              </SqlColumn>
+            </Columns>
+            <GenerateParentAccessMethods>False</GenerateParentAccessMethods>
+          </SqlChildToParentLink>
+          <SqlChildToParentLink two47:typeName="BootFX.Common.Data.Schema.SqlChildToParentLink" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>FK_QuestionTags_Tags</NativeName>
+            <Name>Tag</Name>
+            <Generate>True</Generate>
+            <Columns>
+              <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+                <NativeName>TagId</NativeName>
+                <Name>TagId</Name>
+                <Generate>True</Generate>
+                <DbType>Int32</DbType>
+                <Flags>Common</Flags>
+                <Length>-1</Length>
+                <EnumerationTypeName />
+                <EncryptionKeyName />
+                <Modifiers>Public</Modifiers>
+              </SqlColumn>
+            </Columns>
+            <GenerateParentAccessMethods>False</GenerateParentAccessMethods>
+          </SqlChildToParentLink>
+        </ChildToParentLinks>
+        <GenerateWebService>False</GenerateWebService>
+        <Modifiers>Public</Modifiers>
+      </SqlTable>
+      <SqlTable two47:typeName="BootFX.Common.Data.Schema.SqlTable" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+        <NativeName>Tags</NativeName>
+        <Name>TagItem</Name>
+        <Generate>True</Generate>
+        <Columns>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>TagId</NativeName>
+            <Name>TagId</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Key, Common, AutoIncrement</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Name</NativeName>
+            <Name>Name</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Common</Flags>
+            <Length>64</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>IsActive</NativeName>
+            <Name>IsActive</Name>
+            <Generate>True</Generate>
+            <DbType>Boolean</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>LastCount</NativeName>
+            <Name>LastCount</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>NextUpdateUtc</NativeName>
+            <Name>NextUpdateUtc</Name>
+            <Generate>True</Generate>
+            <DbType>DateTime</DbType>
+            <Flags>Nullable, Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>LastOk</NativeName>
+            <Name>LastOk</Name>
+            <Generate>True</Generate>
+            <DbType>Boolean</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>LastError</NativeName>
+            <Name>LastError</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Nullable, Large</Flags>
+            <Length>1073741823</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>ForceActive</NativeName>
+            <Name>ForceActive</Name>
+            <Generate>True</Generate>
+            <DbType>Boolean</DbType>
+            <Flags>Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>LastUpdateUtc</NativeName>
+            <Name>LastUpdateUtc</Name>
+            <Generate>True</Generate>
+            <DbType>DateTime</DbType>
+            <Flags>Nullable, Common</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+        </Columns>
+        <Indexes>
+          <SqlIndex two47:typeName="BootFX.Common.Data.Schema.SqlIndex" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Tags_Tag</NativeName>
+            <Name>Tags_Tag</Name>
+            <Generate>True</Generate>
+            <Columns>
+              <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+                <NativeName>Name</NativeName>
+                <Name>Name</Name>
+                <Generate>True</Generate>
+                <DbType>String</DbType>
+                <Flags>Common</Flags>
+                <Length>64</Length>
+                <EnumerationTypeName />
+                <EncryptionKeyName />
+                <Modifiers>Public</Modifiers>
+              </SqlColumn>
+            </Columns>
+          </SqlIndex>
+        </Indexes>
+        <ChildToParentLinks />
+        <GenerateWebService>False</GenerateWebService>
+        <Modifiers>Public</Modifiers>
+      </SqlTable>
+      <SqlTable two47:typeName="BootFX.Common.Data.Schema.SqlTable" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+        <NativeName>TagSets</NativeName>
+        <Name>TagSet</Name>
+        <Generate>True</Generate>
+        <Columns>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>TagSetId</NativeName>
+            <Name>TagSetId</Name>
+            <Generate>True</Generate>
+            <DbType>Int32</DbType>
+            <Flags>Key, Common, AutoIncrement</Flags>
+            <Length>-1</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Name</NativeName>
+            <Name>Name</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Common</Flags>
+            <Length>64</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+          <SqlColumn two47:typeName="BootFX.Common.Data.Schema.SqlColumn" two47:assembly="BootFX.Common, Version=4.0.60607.1636, Culture=neutral, PublicKeyToken=aeccec2afb878b89" two47:strategy="IToXml">
+            <NativeName>Tags</NativeName>
+            <Name>Tags</Name>
+            <Generate>True</Generate>
+            <DbType>String</DbType>
+            <Flags>Common</Flags>
+            <Length>256</Length>
+            <EnumerationTypeName />
+            <EncryptionKeyName />
+            <Modifiers>Public</Modifiers>
+          </SqlColumn>
+        </Columns>
+        <Indexes />
+        <ChildToParentLinks />
+        <GenerateWebService>False</GenerateWebService>
+        <Modifiers>Public</Modifiers>
+      </SqlTable>
+    </Tables>
+  </SqlSchema>
+</Project>
